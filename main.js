@@ -6,12 +6,9 @@ let ctx = cnv.getContext("2d");
 cnv.width = 1000;
 cnv.height = 600;
 
-// Load Image
+// Load Spritesheet (Clip Size: 567 x 556)
 let spriteSheet = document.createElement("img");
 spriteSheet.src = "imgs/robot-spritesheet.png";
-
-// Sprite Sheet Data
-// Clip Size: 567 x 556
 
 // Animation Loop
 requestAnimationFrame(animate);
